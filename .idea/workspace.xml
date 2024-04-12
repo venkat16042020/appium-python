@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="595c6ed4-1d4f-49de-a04c-43b73f060c53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/MobileTestAutomatoin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="595c6ed4-1d4f-49de-a04c-43b73f060c53" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/APKs/app-release.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mobile_app_tests/login_module_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mobile_app_tests/login_module_tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for login_module_tests.test_login_mobile_app.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in login_module_tests.py.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for login_module_tests.test_login_mobile_app.executor": "Run",
+    "Python tests.Python tests for login_module_tests.test_test1.executor": "Run",
+    "Python tests.Python tests in login_module_tests.py.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/venkat.kamani/PycharmProjects/MobileTestAutomatoin/APKs"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python tests.Python tests in login_module_tests.py">
     <configuration name="Python tests for login_module_tests.test_login_mobile_app" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="MobileTestAutomatoin" />
@@ -63,6 +62,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;login_module_tests.test_login_mobile_app&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for login_module_tests.test_test1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MobileTestAutomatoin" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/mobile_app_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;login_module_tests.test_test1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -84,6 +98,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in login_module_tests.py" />
+        <item itemvalue="Python tests.Python tests for login_module_tests.test_test1" />
         <item itemvalue="Python tests.Python tests for login_module_tests.test_login_mobile_app" />
       </list>
     </recent_temporary>
@@ -104,14 +119,27 @@
       <option name="presentableId" value="Default" />
       <updated>1712948052133</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1712954417756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712954417756</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/mobile_app_tests/login_module_tests.py</url>
-          <line>21</line>
+          <line>38</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
