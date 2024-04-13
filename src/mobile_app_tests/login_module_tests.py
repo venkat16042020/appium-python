@@ -1,4 +1,3 @@
-import unittest
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
 from appium.webdriver.common.appiumby import AppiumBy
@@ -29,8 +28,11 @@ def test_test1():
     options.load_capabilities(capabilities)
     driver = webdriver.Remote(appium_server_url, options=options)
     print(driver.page_source)
+    driver.find_element(by=AppiumBy.ID, value='userNameTxtBox').send_keys("aaaaaa")
+    driver.find_element(by=AppiumBy.ID, value='pwdTxtBox').send_keys("bbbbbb")
     el = driver.find_element(by=AppiumBy.ID, value='orderBtnOnSignInScrn')
     el.click()
+    print("test execution is done")
 
 
 def login():
